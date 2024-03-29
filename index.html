@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+
+    <div class="main">
+        <div class="form-box">
+            <div class="form-button">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" id="log">Log In</button>
+                <button type="button" class="toggle-btn" id="reg">Register</button>
+            </div>
+
+
+
+            <div id="login" class="input-group">
+                <input type="email" name="" id="login-Id" class="input-field" placeholder="Email" required>
+                <div class="password-field">
+                    <input type="password" name="" id="login-Password" class="input-field" placeholder="Enter Password"
+                        required>
+                    <p id="toggle-password" class="toggle-password">
+                        <i class="fa fa-eye"></i>
+                    </p>
+                </div>
+                <div class="checkbox-container">
+                    <input type="checkbox" name="" id="" class="check-box">
+                    <p>Remember Password</p>
+                </div>
+
+                <button type="submit" class="submit-button" id="login-btn">Log in</button>
+                <p id="txtErrorMessage"></p>
+            </div>
+
+
+
+
+
+
+            <div id="register" class="input-group">
+                <!-- <input type="text" name="" id="User" class="input-field" placeholder="User-Id" required> -->
+                <input type="email" name="" id="Email" class="input-field" placeholder="Email Id" required>
+                <input type="password" name="" id="Password" class="input-field" placeholder="Enter Password" required>
+                <!-- <p id="passValidity"></p> -->
+                <div class="checkbox-container">
+                    <input type="checkbox" name="" id="" class="check-box">
+                    <p>I Agree to the terms
+                        conditions</p>
+
+                </div>
+                <button type="submit" class="submit-button" id="signup-btn">Register</button>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script type="module" src="./signin.js"></script>
+    <script type="module" src="./config.js"></script>
+</body>
+
+</html>

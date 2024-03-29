@@ -1,0 +1,151 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEF0F4;
+    font-family: 'Rubik', sans-serif;
+    color: #432000;
+}
+
+
+* {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    background-color: #DCE1EB;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #432000;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    background-color: #AC485A;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #FDFDFD;
+    font-family: 'Rubik', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEF0F4;
+    font-family: 'Rubik', sans-serif;
+    color: #432000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    background-color: #DCE1EB;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #432000;
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+button {
+    background-color: #AC485A;
+    padding: 15px;
+    border: 0;
+    border-radius: 8px;
+    font-size: 20px;
+    color: #FDFDFD;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: #432000;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+ul li {
+    background-color: #FFFDF8;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-radius: 8px;
+    flex-grow: 1;
+    font-size: 20px;
+
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+.Patient.Name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #AC485A;
+}
+
+
+.signInBox {
+
+    width: fit-content;
+    margin: auto;
+    margin-top: auto;
+    padding: 5rem 20rem;
+}
+
+
+.medicine_time,
+.medicine_quantity {
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    max-width: 50%;
+}
+
+.submit_button {
+    margin-top: 2rem;
+}
+
+.quanity_time {
+    display: flex;
+    justify-content: space-between;
+}

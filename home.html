@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Add to Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" type="image/x-icon" href="image.png">
+</head>
+
+<body>
+    <div class="container">
+        <img src="image.png" >
+        <div>
+
+        </div>
+        <div>
+            <label for="input-field">Patient Name</label>
+            <input type="text" id="input-field" placeholder="Patient Name">
+        </div>
+        <div>
+            <label for="medicine-field">Medicine Name</label>
+            <input type="text" id="medicine-field" placeholder="Medicine Name" min="0">
+        </div>
+        <div class="quanity_time">
+            <div class="medicine_quantity">
+
+
+                <label for="quantity-field">Quantity</label>
+                <input type="text" id="quantity-field" placeholder="Quantity" min="0">
+
+
+            </div>
+            <div class="medicine_time">
+                <label for="time_to_take_medicine">Time</label>
+                <input type="time" name="time_to_take_medicine" id="time-field">
+            </div>
+        </div>
+
+
+
+        <button id="add-button" class="submit">Add to cart</button>
+        <ul id="shopping-list"> </ul>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
